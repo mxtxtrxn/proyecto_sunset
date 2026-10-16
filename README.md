@@ -40,27 +40,24 @@ La plataforma objetivo es **Mantis** (multi-modal, RAG, embeddings, agentes).
 ---
 
 ## Estructura del repositorio
-proyecto_sunset/
-├── data/
-│ ├── leads_ventas.csv # Dataset sucio (input Parte 1)
-│ ├── leads_ventas_clean.csv # Dataset limpio (output Parte 1)
-│ ├── fx_historico.csv # Serie MXN/USD 2014-2024 (input Parte 2)
-│ └── fx_forecast.csv # Pronóstico 6 meses (output Parte 2)
-├── notebooks/
-│ ├── parte1_limpieza.ipynb # Carga, limpieza, enriquecimiento
-│ └── parte2_forecasting_fx.ipynb # EDA, ARIMA, XGBoost, pronóstico
-├── src/
-│ └── generar_datos.py # Script de generación de datos sintéticos
-├── reports/
-│ ├── informe_parte1.pdf # Informe ejecutivo 1 pág (Parte 1)
-│ ├── resumen_parte2.pdf # Resumen ejecutivo 1 pág (Parte 2)
-│ ├── parte3_agente_verificacion.pdf # Diseño del agente (Parte 3)
-│ ├── parte4_integracion_legados.pdf # Diseño de integración (Parte 4)
-│ ├── metricas_fx.csv # MAE/RMSE/MAPE ARIMA vs XGBoost
-│ └── pronostico_6m.csv # Pronóstico enero-junio 2025
-├── requirements.txt # Dependencias con versiones
-├── README.md # Este archivo
-└── LICENSE # (Opcional) MIT o similar
+| Ruta | Descripción |
+|---|---|
+| `data/leads_ventas.csv` | Dataset sucio (input Parte 1) |
+| `data/leads_ventas_clean.csv` | Dataset limpio (output Parte 1) |
+| `data/fx_historico.csv` | Serie MXN/USD 2014-2024 (input Parte 2) |
+| `data/fx_forecast.csv` | Pronóstico 6 meses (output Parte 2) |
+| `notebooks/parte1_limpieza.ipynb` | Carga, limpieza, enriquecimiento |
+| `notebooks/parte2_forecasting_fx.ipynb` | EDA, ARIMA, XGBoost, pronóstico |
+| `src/generar_datos.py` | Script de generación de datos sintéticos |
+| `reports/informe_parte1.pdf` | Informe ejecutivo 1 pág (Parte 1) |
+| `reports/resumen_parte2.pdf` | Resumen ejecutivo 1 pág (Parte 2) |
+| `reports/parte3_agente_verificacion.pdf` | Diseño del agente (Parte 3) |
+| `reports/parte4_integracion_legados.pdf` | Diseño de integración (Parte 4) |
+| `reports/metricas_fx.csv` | MAE/RMSE/MAPE ARIMA vs XGBoost |
+| `reports/pronostico_6m.csv` | Pronóstico enero-junio 2025 |
+| `requirements.txt` | Dependencias con versiones |
+| `README.md` | Este archivo |
+| `LICENSE` | (Opcional) MIT o similar |
 
 
 ---
