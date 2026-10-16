@@ -1,8 +1,8 @@
 # Proyecto Sunset World — Examen Técnico Data Scientist
 
-**Candidato:** [Tu nombre]
-**Fecha:** [Fecha de entrega]
-**Contacto:** [tu_email@dominio.com]
+**Candidato:** Camilo Covarrubias Hernández
+**Fecha:** 15 de octubre del 2026
+**Contacto:** 280268covarrubiashernandez@gmail.com
 
 Repositorio con la solución completa al examen técnico de Data Science
 para Sunset World. Cubre limpieza de datos legados, forecasting de FX,
