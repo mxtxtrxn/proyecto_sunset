@@ -57,7 +57,6 @@ La plataforma objetivo es **Mantis** (multi-modal, RAG, embeddings, agentes).
 | `reports/pronostico_6m.csv` | Pronóstico enero-junio 2025 |
 | `requirements.txt` | Dependencias con versiones |
 | `README.md` | Este archivo |
-| `LICENSE` | (Opcional) MIT o similar |
 
 
 ---
